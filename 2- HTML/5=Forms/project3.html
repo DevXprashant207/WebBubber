@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Complex Form</title>
+</head>
+<body>
+     <h1>Complex Form</h1>
+     <form >
+          <fieldset>
+               <legend>Personal Information : </legend>
+               <lable for="name">Name : </lable>
+               <input type="text" id="name">
+               <lable for="email">Email : </lable>
+               <input type="text" id="email">
+               <lable for="phone">Phone : </lable>
+               <input type="tel">
+               <label for="date">Date of Birth : </label>
+               <input type="date" id="date">
+               <label for="Gender">Gender</label>
+               <input type="radio" name="Gender" id="male">
+               <label for="male">Male</label>
+               <input type="radio" name="Gender" id="female">
+               <label for="female">Female </label>
+               <label for="Country">   Country:</label>
+               <select name="Country" id="Country">
+                    <option value="A">India</option>
+                    <option value="B">USA</option>
+                    <option value="C">UK</option>
+                    <option value="D">China</option>
+                    <option value="E">Australia</option>
+               </select>
+          </fieldset>
+          <fieldset>
+               <legend>
+                    <label for="as">Address Street </label>
+                    <input type="text" id="as">
+                    <label for="city">City </label>
+                    <input type="text" id="city">
+                    <label for="state">State </label>
+                    <input type="text" id="state">
+                    <label for="zip">Zip Code </label>
+                    <input type="text" id="zip">
+               </legend>
+          </fieldset>
+          <fieldset>
+               <legend>Other Information</legend>
+               <label for="comments">Comments : </label>
+               <textarea  id="comments" cols="30" rows="10"></textarea>
+               <label for="tick">I agree to the terms of service </label>
+               <input type="checkbox"  id="tick">
+          </fieldset>
+          <button>Submit</button>
+     </form>
+</body>
+</html>
